@@ -1,0 +1,110 @@
+/*INICIO CARD*/
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.card{
+    text-align: center;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 17vw;
+}
+.card:hover{
+    transform: scale(1.1);  
+    transition: 0.2s;
+}
+#card-img{
+    padding: 10px;
+}
+.card-title{
+    font-weight: bold;
+    color: rgb(0, 52, 194);
+}
+.card-text{
+    color: rgb(116, 116, 116);
+}
+/*FIM CARD*/
+.evolution{
+    display: none;
+}
+.evolution-title{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  #fcf3a8;
+}
+.evolution-title h1{
+    color: #fff;
+    font-size: 800%;
+    text-align:center;
+    letter-spacing: 10px;
+    font-family: 'Righteous', cursive;
+}
+.evolution-body{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    background-color:  #fcf3a8;
+    justify-content: space-evenly;
+}
+.evolution-image{
+    width: 22vw;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.evolution-image:hover{
+    transition: 0.5s;
+    transform: translateY(-30px);
+}
+.evolution-name{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#evolution-pokemon-raio{
+    color: #a57900;
+}
+#evolution-pokemon-fogo{
+    color: #af5500ea;
+}
+#evolution-pokemon-agua{
+    color: #0075c4;
+}
+#evolution-pokemon-terra{
+    color: #009463;
+}
+.evolution-group-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.evolution-status{
+    width: 20vw;
+    display: grid;
+    grid-template-columns: 75px 15vw;
+}
+.evolution-text-status{
+    font-size: 18px;
+}
+#evolution-progressBar{
+    height: 30px;
+    width: 100%;
+    font-size: 17px;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+#progresso-porcentagem{
+    animation: progress-animation 3s;
+}
+@keyframes progress-animation{
+    0% { width: 0%; } 
+}

@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*CONTEÚDO 1*/
+.home-page{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 96%; 
+    margin: 0% 2%;
+    border-radius: 30px;
+}
+.home-page-img img{
+    margin-top: 8%;
+    margin-left: -4%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+.home-page-text{
+    margin-right: 150px;
+    width: 600px;
+}
+.home-page-text h1, .home-page-text span{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    color: rgb(2, 0, 109);
+}
+.home-page-text span{
+    color: rgb(255, 196, 0);
+}
+.home-page-text p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 27px;
+}
+.home-page-text p strong{
+    color: rgb(2, 0, 109);
+}
+/*BOTÃO*/
+#btn-saiba-mais{
+   padding: 8px;
+   width: 100%;
+   color:rgb(2, 0, 109);
+   border-color: rgb(2, 0, 109);
+   border-radius: 10px;
+   margin: 10px 0px;
+}
+#btn-saiba-mais:hover{
+    background-color:rgb(2, 0, 109);
+    color: white;
+}
+/*MODAL*/
+.modal-body{
+    color: rgb(64, 64, 64);
+    text-align: justify;
+}
+.btnFecharModal{
+    padding: 7px;
+    border: 0px;
+    background-color: white;
+}
+.btnFecharModal:hover{
+    color: rgb(0, 90, 234);
+}
+#btn-entendiModal{
+    width: 100%;
+}
+/*CONTEÚDO 2*/
+.pokemons-titulo{
+    text-align: center;
+    color: rgb(2, 0, 109);
+    font-family: 'Righteous', cursive;
+    letter-spacing: 5px;
+    font-size: 90px;
+    margin-top: 150px;
+}
+.pokemons-section{
+    position: relative;
+    width: 100%;
+    min-height: 87vh;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+
+}
+.conteudo-circulo-dinamico{
+    position: absolute;
+    top:0 ;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e7b100;
+    clip-path: circle(630px at Right 800px);
+    
+}
+.conteudo-dinamico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+/*TEXTOS DINÂMICOS*/
+.conteudo-text-dinamico{
+    position: relative;
+    font-size: 22px;
+}
+.conteudo-text-dinamico h1{
+    font-size: 7em;
+    color: #e7b100;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+.conteudo-text-dinamico p{
+    color:rgb(2, 0, 90);
+}
+.descricao-pokemon{
+    font-weight: bold;
+}
+.tipo-text, .habilidade-text, .evolucao-text, .ponto-forte-text, .ponto-fraco-text, .habilidade-oculta-text{
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+.ponto-forte-text, .ponto-fraco-text{
+  line-height: 43px;
+}
+.tipos{
+    padding: 7px 20px;
+    border-radius: 20px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+/*TIPOS DINÂMCOS*/
+/*---------------------ÁGUA------------------------------*/ 
+#tipo-agua{
+    background-color: rgb(123, 222, 252);
+    color: rgb(0, 57, 133);
+}
+#tipo-agua:hover{
+    background-color:  rgb(60, 209, 255);
+}
+/*----------------------VOADOR---------------------------*/
+#tipo-voador{
+    background-color: rgb(224, 224, 224);
+    color: rgb(71, 71, 71);
+}
+#tipo-voador:hover{
+    background-color:  rgb(202, 200, 200);
+}
+/*---------------------ELÉTRICO--------------------------*/
+#tipo-eletrico{
+    background-color: rgb(255, 217, 0);
+    color: rgb(97, 79, 0);
+}
+#tipo-eletrico:hover{
+    background-color:  rgba(255, 217, 0, 0.747);
+}
+/*----------------------GRAMA----------------------------*/
+#tipo-grama{
+    background-color: rgb(123, 251, 112);
+    color: rgb(19, 83, 0);
+}
+#tipo-grama:hover{
+    background-color:  rgb(125, 228, 99);
+}
+/*---------------------DRAGÃO----------------------------*/
+#tipo-dragao{
+    background-color: rgb(88, 89, 156);
+    color: rgb(255, 255, 255);
+}
+#tipo-dragao:hover{
+    background-color:  rgb(65, 66, 125);
+}
+/*--------------------FOGO-------------------------------*/
+#tipo-fogo{
+    background-color: rgb(253, 109, 65);
+    color: rgb(255, 255, 255);
+}
+#tipo-fogo:hover{
+    background-color:  rgba(255, 60, 0, 0.829);
+}
+/*---------------------TERRA-----------------------------*/
+#tipo-terra{
+    background-color: rgb(159, 109, 80);
+    color: rgb(255, 255, 255);
+}
+#tipo-terra:hover{
+    background-color: rgba(114, 69, 43, 0.918);
+}
+/*--------------------PEDRA------------------------------*/
+#tipo-pedra{
+    background-color: rgb(197, 197, 197);
+    color: rgb(54, 54, 54);
+}
+#tipo-pedra:hover{
+    background-color: rgba(161, 161, 161, 0.904);
+}
+/*---------------------GELO------------------------------*/
+#tipo-gelo{
+    background-color: rgb(147, 251, 255);
+    color: rgb(0, 97, 97);
+}
+#tipo-gelo:hover{
+    background-color:  rgb(67, 239, 245);
+}
+/*---------------------INSETO----------------------------*/
+#tipo-inseto{
+    background-color: rgb(162, 127, 220);
+    color: rgb(255, 255, 255);
+}
+#tipo-inseto:hover{
+    background-color: rgb(148, 101, 225);
+}
+/*---------------------AÇO-------------------------------*/
+#tipo-aco{
+    background-color: rgb(70, 72, 227);
+    color: rgb(255, 255, 255);
+}
+#tipo-aco:hover{
+    background-color:  rgb(46, 49, 230);
+}
+/*---------------------FADA------------------------------*/
+#tipo-fada{
+    background-color: rgb(248, 180, 236);
+    color: rgb(97, 0, 89);
+}
+#tipo-fada:hover{
+    background-color:  rgb(249, 147, 219);
+}
+/*--------------------VENENO-----------------------------*/
+#tipo-veneno{
+    background-color: rgb(179, 255, 0);
+    color: rgb(46, 116, 0);
+}
+#tipo-veneno:hover{
+    background-color:  rgb(172, 226, 46);
+}
+/*---------------------FANTASMA--------------------------*/
+#tipo-fantasma{
+    background-color: rgb(15, 194, 200);
+    color: rgb(255, 255, 255);
+}
+#tipo-fantasma:hover{
+    background-color:  rgb(33, 186, 191);
+}
+/*--------------------PLANTA-----------------------------*/
+#tipo-planta{
+    background-color: rgb(9, 121, 28);
+    color: rgb(255, 255, 255);
+}
+#tipo-planta:hover{
+    background-color:  rgb(0, 99, 16);
+}
+/*--------------------------------------------------------*/
+/*IMAGEM DINÂMICA/*/
+.conteudo-img-dinamica{
+    margin-right: 0px;
+}
+.conteudo-img-dinamica img{
+    height: 600px;
+    width: 600px;
+}
+/*IMAGENS MENORES*/
+.sub-img-dinamica{
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    transform: translateX(-50%);   
+    display: flex; 
+    padding: 0%;
+}
+.sub-img-dinamica li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub-img-dinamica li:hover{
+    transform: translateY(-25px);
+}
+.sub-img-dinamica li img{
+    height: 120px;
+    width: 120px;
+}

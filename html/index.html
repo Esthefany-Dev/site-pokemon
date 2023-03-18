@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/menu-footer.css">
+    <link rel="shortcut icon" type = "imagem/x-icon" href = "/img/icons/icon-pokebola.png">
+   
+    <title>Pokémon</title>
+</head>
+<body>
+     <!--MENU----------------------------------------------------------------------------------------------------------------->
+     <header class="menu" id="menu-principal">
+        <div class="menu-img"> <a href="index.html"><img src="/img/pokemon-logo.png" class="menu-logotipo"></a> </div>
+        <div class="menu-items">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#pokemons">Pokémons</a></li>
+                <li><a href="evolution.html">Evolução</a></li>
+                <li><a href="pokedex.html">Pokedéx</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--FIM MENU------------------------------------------------------------------------------------------------------------>
+
+    <section>
+        <!--CONTEÚDO 1---------------------------------------------------------------------------------------------------------->
+        <section class="home-page">
+            <div class="home-page-img"><img src="/img/pokemons.png" ></div>
+            <div class="home-page-text">
+                <h1>Site Oficial <span>Pokémon</span></h1>
+                <p>
+                   <strong>Pokemóns</strong> são <strong>criaturas misteriosas</strong> que vivem nesse planeta.
+                    No céu, no mar, na terra e nas cidades. 
+                    É possível vê-los em todos os lugares do mundo.  
+                    Há alguns que vivem com os humanos, outros vivem livres na natureza.  
+                    Ainda há aqueles que constroem comunidades com seus parceiros e vivem de distintas formas.
+                </p>
+                <div class="btn-div">
+                    <button type="button" clasHs="btn btn-outline-primary" id="btn-saiba-mais" data-toggle="modal" data-target="#modalSaibaMais">Saiba Mais</button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div id="modalSaibaMais" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Informação Geral</h4>
+                        <button type="button" class="btnFecharModal" data-dismiss="modal">X</button>
+                    </div>
+                    <div class="modal-body">
+                        <p> Pokémons são criaturas de todas as formas e tamanhos que podem ser selvagens ou então viver ao lado de seus parceiros humanos.  </p>
+                        <p> Durante suas aventuras, os Pokémons crescem e se tornam mais experientes e até, ocasionalmente, evoluem para se tornarem ainda mais fortes. Centenas de Pokémons conhecidos habitam o universo Pokémon, com números incontáveis ​​esperando para serem descobertos! </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="btn-entendiModal" class="btn btn-primary" data-dismiss="modal">Entendi !</button>
+                    </div>
+                </div>
+              </div>
+            </div>     
+        </section>
+        <!--CONTEÚDO 2----------------------------------------------------------------------------------------------------------->
+        <section id="pokemons">
+            <h1 class="pokemons-titulo">POKÉMONS</h1> 
+            <section class="pokemons-section">
+                <div class="conteudo-circulo-dinamico"></div>
+                <div class="conteudo-dinamico" >
+                    <div class="conteudo-text-dinamico">
+                        <h1 class="nome-pokemon">PIKACHU</h1>  
+                        <p class="tipo-pokemon">
+                            <span class="descricao-pokemon">TIPO:</span>
+                            <span class="tipos" id="tipo-eletrico">Elétrico</span>
+                        </p> 
+
+                        <p class="habilidade-pokemon"><span class="descricao-pokemon">HABILIDADE:</span> <span class="habilidade-text">Estático</span></p>
+                        <p class="habilidade-oculta-pokemon"> <span class="descricao-pokemon">HABILIDADE OCULTA:</span> <span class="habilidade-oculta-text">Pára-Raios</span> </p>
+                        <p class="ponto-forte-pokemon"><span class="descricao-pokemon">PONTO FORTE: </span>
+                           <span class="ponto-forte-text"> 
+                                <span class="tipos" id="tipo-agua"> Água </span>
+                                <span class="tipos" id="tipo-voador"> Voador </span>
+                            </span>  
+                        </p>
+                        <p class="ponto-fraco-pokemon"> <span class="descricao-pokemon">PONTO FRACO: </span>  
+                            <span class="ponto-fraco-text"> 
+                                <span class="tipos" id="tipo-eletrico">Elétrico</span>
+                                <span class="tipos" id="tipo-grama">Grama</span>
+                                <span class="tipos" id="tipo-dragao">Dragão</span>
+                            </span> 
+                        </p>
+                        <a href="../html/evolution.html"><button type="button" class="btn btn-outline-primary" id="btn-verEvolucao">VER EVOLUÇÃO</button></a>
+                    </div>
+                    <div class="conteudo-img-dinamica"><img src="/img/Pokemon-Pikachu-PNG.png" class="img-dinamica"></div>
+                </div>
+               <div>
+                <ul class="sub-img-dinamica">
+                    <li><img class="img-pikachu" src="/img/Pokemon-Pikachu-PNG.png" onclick="imgSlider('/img/Pokemon-Pikachu-PNG.png'); mudarCorCirculo('#e7b100')"></li>
+                    <li><img class="img-squirtle" src="/img/Squirtle.png" onclick="imgSlider('/img/Squirtle.png'); mudarCorCirculo('#a7edff')"></li>
+                    <li><img class="img-charmander" src="/img/charmander.png" onclick="imgSlider('/img/charmander.png');  mudarCorCirculo('#ffb950')"></li>
+                    <li><img class="img-bulbasaur" src="/img/bubasauro.png" onclick="imgSlider('/img/bubasauro.png'); mudarCorCirculo('#00a070')"></li>
+                </ul> 
+               </div>
+          </section>
+        </section>
+       <footer class="rodape">
+            <div>
+              <div class="itens-footer">
+                <div class="text-footer" >
+                    <span class="menu-footer">
+                        <a href="#menu-principal">Início </a>|
+                        <a href="#pokemons">Pokémons </a>|
+                        <a href="evolution.html">Evolução </a>|
+                        <a href="pokedex.html">Pokédex</a>
+                    </span><br>
+                    <span class="marca-footer">Esthefany-Dev @ 2023</span>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/esthefany-silva-a3533823a/" title="Visitar Linkedin" target="_blank"><img class="icon-redesSociais" src="../img/icons/icon-linkedin.png"></a>   
+                    <a href="https://github.com/Esthefany-Dev" title="Visitar GitHub" target="_blank"><img class="icon-redesSociais" src="../img/icons/icon-github.png"></a>
+                </div>
+              </div>
+            </div>
+        </footer>
+    </section>
+    
+    <script src="../js/script.js"></script>
+    <script src="../js/scrollSuave.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>    
+</body>
+</html>

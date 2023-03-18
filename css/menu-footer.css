@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-logotipo{
+    height: 140px;
+    width: 250px;
+    margin-left: 25%;
+}
+.menu-items ul{
+    position: relative;
+    display: flex;
+    
+}
+.menu-items ul li{
+    list-style: none;
+    margin-right: 27px;
+}
+.menu-items ul li a{
+    display:inline-block;
+    color: #333;
+    font-weight: 400;
+    margin: 0px 13px;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: solid 5px #fff;
+    text-decoration: none ;
+}
+.menu-items ul li a:hover{
+    border-color: rgb(2, 0, 129);
+    color:rgb(2, 0, 129);
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0eeee;
+    letter-spacing: 3px;
+    padding: 1.9%;
+    font-size: 18px;
+}
+.itens-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-footer{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.menu-footer a{
+    color: rgb(0, 17, 100);
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu-footer a:hover{
+    color: rgb(53, 93, 255);
+    text-decoration: none;
+}
+.marca-footer{
+    color: rgb(160, 160, 160);
+    margin-top: 100px;
+}
+.icon-redesSociais{
+    width: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px;
+}

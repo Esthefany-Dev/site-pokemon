@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/evolution.css">
+    <link rel="stylesheet" href="/css/menu-footer.css">
+    <link rel="shortcut icon" type = "imagem/x-icon" href = "/img/icons/icon-pokebola.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Pokémon - Evolution</title>
+</head>
+<body>
+    <header class="menu" id="menu-principal">
+        <div class="menu-img"> <a href="index.html"><img src="/img/pokemon-logo.png" class="menu-logotipo"></a> </div>
+        <div class="menu-items">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#conteudo">Pokémons</a></li>
+                <li><a href="evolution.html">Evolução</a></li>
+                <li><a href="pokedex.html">Pokédex</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="cards">
+            <div class="card">
+                <img id="card-img" class="card-img-top" src="/img/Pokemon-Pikachu-PNG.png" alt="Imagem de capa do card">
+                <div class="card-body"><hr>
+                <h5 class="card-title">Evolução Pikachu</h5>
+                <p class="card-text">Pichu > Pikachu > Raichu</p>
+                <a href="#evolutionPikachu" class="btn btn-primary" id="verEvolucaoPikachu">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="card">
+                <img id="card-img" class="card-img-top" src="/img/Squirtle.png" alt="Imagem de capa do card">
+                <div class="card-body"><hr>
+                <h5 class="card-title">Evolução Squirtle</h5>
+                <p class="card-text">Squirtle > Wartotle > Blastoise</p>
+                <a href="#evolutionSquirtle" class="btn btn-primary" id="verEvolucaoSquirtle">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="card">
+                <img id="card-img" class="card-img-top" src="/img/charmander.png" alt="Imagem de capa do card">
+                <div class="card-body"><hr>
+                <h5 class="card-title">Evolução Charmander</h5>
+                <p class="card-text">Charmander > Charmelon > Charizard</p>
+                <a href="#evolutionCharmander" class="btn btn-primary" id="verEvolucaoCharmander">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="card">
+                <img id="card-img" class="card-img-top" src="/img/bubasauro.png" alt="Imagem de capa do card">
+                <div class="card-body"><hr>
+                <h5 class="card-title">Evolução Bulbasaur</h5>
+                <p class="card-text">Bulbasaur > Ivysaur > Venusaur</p>
+                <a href="#evolutionBulbasaur" class="btn btn-primary" id="verEvolucaoBulbasaur">Ver Detalhes</a>
+                </div>
+            </div>
+       </div>
+    </section>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="evolution" id="evolutionPikachu">
+        <div class="evolution-title"><h1>EVOLUÇÃO</h1></div>
+        <div class="evolution-body">
+
+            <div class="evolution-group">
+                <img class="evolution-image" src="/img/pichu.webp" title="Pichu">
+                <div class="evolution-group-status">
+                    <h3 class="evolution-name" id="evolution-pokemon-raio">PICHU</h3>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Vida: </p>
+                        <div class="progress" id="evolution-progressBar" title="Vida: 20%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="110">20%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Ataque: </p>
+                        <div class="progress" id="evolution-progressBar" title="Ataque: 40%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="110">40%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Defesa: </p>
+                        <div class="progress" id="evolution-progressBar" title="Defesa: 15%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="110">15%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Rapidez: </p>
+                        <div class="progress" id="evolution-progressBar" title="Rapidez: 60%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="110">60%</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="evolution-group">
+                <img class="evolution-image" src="/img/pikachu-evolution.png" title="Pikachu">
+
+                <div class="evolution-group-status">
+                    <h3 class="evolution-name" id="evolution-pokemon-raio">PIKACHU</h3>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Vida: </p>
+                        <div class="progress" id="evolution-progressBar" title="Vida: 35%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="110">35%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Ataque: </p>
+                        <div class="progress" id="evolution-progressBar" title="Ataque: 55%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="110">55%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Defesa: </p>
+                        <div class="progress" id="evolution-progressBar" title="Defesa: 40%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="110">40%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Rapidez: </p>
+                        <div class="progress" id="evolution-progressBar" title="Rapidez: 90%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="110">90%</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="evolution-group">
+                <img class="evolution-image" src="/img/raichu.png" title="Raichu">
+
+                <div class="evolution-group-status">
+                    <h3 class="evolution-name" id="evolution-pokemon-raio">RAICHU</h3>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Vida: </p>
+                        <div class="progress" id="evolution-progressBar" title="Vida: 60%"> <div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="110">60%</div> </div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Ataque: </p>
+                        <div class="progress" id="evolution-progressBar" title="Ataque: 90%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="110">90%</div> </div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Defesa: </p>
+                        <div class="progress" id="evolution-progressBar" title="Defesa: 55%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="110">55%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Rapidez: </p>
+                        <div class="progress" id="evolution-progressBar" title="Rapidez: 110%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 110%" aria-valuenow="110" aria-valuemin="0" aria-valuemax="110">110%</div></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="evolution" id="evolutionCharmander">
+     <div class="evolution-title" style="background-color: rgb(252, 195, 120)"><h1>EVOLUÇÃO</h1></div> 
+       <div class="evolution-body" style="background-color:  rgb(252, 195, 120)">
+  
+           <div class="evolution-group">
+               <img class="evolution-image" src="/img/charmander.png" title="Charmander">
+  
+               <div class="evolution-group-status">
+                   <h3 class="evolution-name" id="evolution-pokemon-fogo">CHARMANDER</h3>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Vida: </p>
+                       <div class="progress" id="evolution-progressBar" title="Vida: 39%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width:39%" aria-valuenow="39" aria-valuemin="0" aria-valuemax="110">39%</div></div>
+                   </div>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Ataque: </p>
+                       <div class="progress" id="evolution-progressBar" title="Ataque: 52%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 52%" aria-valuenow="52" aria-valuemin="0" aria-valuemax="110">52%</div></div>
+                   </div>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Defesa: </p>
+                       <div class="progress" id="evolution-progressBar" title="Defesa: 43%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="110">43%</div></div>
+                   </div>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Rapidez: </p>
+                       <div class="progress" id="evolution-progressBar" title="Rapidez: 65%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="110">65%</div></div>
+                   </div>
+               </div>
+           </div>
+  
+           <div class="evolution-group">
+            <img class="evolution-image" src="/img/charmelon.png" title="Charmelon">
+            <div class="evolution-group-status">
+                <h3 class="evolution-name" id="evolution-pokemon-fogo">CHARMELON</h3>
+                <div class="evolution-status">
+                    <p class="evolution-text-status">Vida: </p>
+                    <div class="progress" id="evolution-progressBar" title="Vida: 58%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 58%" aria-valuenow="58" aria-valuemin="0" aria-valuemax="110">58%</div></div>
+                </div>
+                <div class="evolution-status">
+                    <p class="evolution-text-status">Ataque: </p>
+                    <div class="progress" id="evolution-progressBar" title="Ataque: 64%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 64%" aria-valuenow="64" aria-valuemin="0" aria-valuemax="110">64%</div></div>
+                </div>
+                <div class="evolution-status">
+                    <p class="evolution-text-status">Defesa: </p>
+                    <div class="progress" id="evolution-progressBar" title="Defesa: 58%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 58%" aria-valuenow="58" aria-valuemin="0" aria-valuemax="110">58%</div></div>
+                </div>
+                <div class="evolution-status">
+                    <p class="evolution-text-status">Rapidez: </p>
+                    <div class="progress" id="evolution-progressBar" title="Rapidez: 80%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="110">80%</div></div>
+                </div>
+            </div>
+        </div>
+
+           <div class="evolution-group">
+               <img class="evolution-image" src="/img/charizard.webp" title="Charizard">
+  
+               <div class="evolution-group-status">
+                   <h3 class="evolution-name"  id="evolution-pokemon-fogo">CHARIZARD</h3>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Vida: </p>
+                       <div class="progress" id="evolution-progressBar" title="Vida: 78%"> <div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="110">78%</div> </div>
+                   </div>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Ataque: </p>
+                       <div class="progress" id="evolution-progressBar" title="Ataque: 84%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 84%" aria-valuenow="84" aria-valuemin="0" aria-valuemax="110">84%</div> </div>
+                   </div>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Defesa: </p>
+                       <div class="progress" id="evolution-progressBar" title="Defesa: 78%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="110">78%</div></div>
+                   </div>
+                   <div class="evolution-status">
+                       <p class="evolution-text-status">Rapidez: </p>
+                       <div class="progress" id="evolution-progressBar" title="Rapidez: 100%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="110">100%</div></div>
+                   </div>
+               </div>
+           </div>
+      </div>
+    </section>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="evolution" id="evolutionSquirtle">
+        <div class="evolution-title" style="background-color: rgb(169, 232, 252)"><h1>EVOLUÇÃO</h1></div>
+        <div class="evolution-body" style="background-color: rgb(169, 232, 252)">
+
+            <div class="evolution-group">
+                <img class="evolution-image" src="/img/Squirtle.png" title="Pichu">
+                <div class="evolution-group-status">
+                    <h3 class="evolution-name" id="evolution-pokemon-agua">SQUIRTLE</h3>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Vida: </p>
+                        <div class="progress" id="evolution-progressBar" title="Vida: 44%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 44%" aria-valuenow="44" aria-valuemin="0" aria-valuemax="110">44%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Ataque: </p>
+                        <div class="progress" id="evolution-progressBar" title="Ataque: 48%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 48%" aria-valuenow="48" aria-valuemin="0" aria-valuemax="110">48%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Defesa: </p>
+                        <div class="progress" id="evolution-progressBar" title="Defesa: 65%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="110">65%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Rapidez: </p>
+                        <div class="progress" id="evolution-progressBar" title="Rapidez: 43%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="110">43%</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="evolution-group">
+                <img class="evolution-image" src="/img/wartotle.webp" title="Pikachu">
+
+                <div class="evolution-group-status">
+                    <h3 class="evolution-name" id="evolution-pokemon-agua">WARTOTLE</h3>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Vida: </p>
+                        <div class="progress" id="evolution-progressBar" title="Vida: 59%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width:59%" aria-valuenow="59" aria-valuemin="0" aria-valuemax="110">59%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Ataque: </p>
+                        <div class="progress" id="evolution-progressBar" title="Ataque: 63%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 63%" aria-valuenow="63" aria-valuemin="0" aria-valuemax="110">63%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Defesa: </p>
+                        <div class="progress" id="evolution-progressBar" title="Defesa: 80%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="110">80%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Rapidez: </p>
+                        <div class="progress" id="evolution-progressBar" title="Rapidez: 58%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 58%" aria-valuenow="58" aria-valuemin="0" aria-valuemax="110">58%</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="evolution-group">
+                <img class="evolution-image" src="/img/blastoise.webp" title="Raichu">
+
+                <div class="evolution-group-status">
+                    <h3 class="evolution-name"  id="evolution-pokemon-agua">BLASTOISE</h3>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Vida: </p>
+                        <div class="progress" id="evolution-progressBar" title="Vida: 79%"> <div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 79%" aria-valuenow="79" aria-valuemin="0" aria-valuemax="110">79%</div> </div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Ataque: </p>
+                        <div class="progress" id="evolution-progressBar" title="Ataque: 83%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 83%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="110">83%</div> </div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Defesa: </p>
+                        <div class="progress" id="evolution-progressBar" title="Defesa: 100%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="110">100%</div></div>
+                    </div>
+                    <div class="evolution-status">
+                        <p class="evolution-text-status">Rapidez: </p>
+                        <div class="progress" id="evolution-progressBar" title="Rapidez: 78%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="110">78%</div></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="evolution" id="evolutionBulbasaur">
+     <div class="evolution-title" style="background-color: rgb(137, 221, 172)"><h1>EVOLUÇÃO</h1></div>
+     <div class="evolution-body" style="background-color:  rgb(137, 221, 172)">
+
+         <div class="evolution-group">
+             <img class="evolution-image" src="/img/bubasauro.png" title="Bulbasauro">
+             <div class="evolution-group-status">
+                 <h3 class="evolution-name" id="evolution-pokemon-terra">BULBASAURO</h3>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Vida: </p>
+                     <div class="progress" id="evolution-progressBar" title="Vida: 45%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="110">45%</div></div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Ataque: </p>
+                     <div class="progress" id="evolution-progressBar" title="Ataque: 49%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 49%" aria-valuenow="49" aria-valuemin="0" aria-valuemax="110">49%</div></div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Defesa: </p>
+                     <div class="progress" id="evolution-progressBar" title="Defesa: 49%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 49%" aria-valuenow="49" aria-valuemin="0" aria-valuemax="110">49%</div></div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Rapidez: </p>
+                     <div class="progress" id="evolution-progressBar" title="Rapidez: 45%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="110">45%</div></div>
+                 </div>
+             </div>
+         </div>
+
+         <div class="evolution-group">
+             <img class="evolution-image" src="/img/ivysaur.webp" title="Ivysaur">
+
+             <div class="evolution-group-status">
+                 <h3 class="evolution-name" id="evolution-pokemon-terra">IVYSAUR</h3>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Vida: </p>
+                     <div class="progress" id="evolution-progressBar" title="Vida: 60%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="110">60%</div></div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Ataque: </p>
+                     <div class="progress" id="evolution-progressBar" title="Ataque: 62%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="110">62%</div></div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Defesa: </p>
+                     <div class="progress" id="evolution-progressBar" title="Defesa: 63%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 63%" aria-valuenow="63" aria-valuemin="0" aria-valuemax="110">63%</div></div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Rapidez: </p>
+                     <div class="progress" id="evolution-progressBar" title="Rapidez: 60%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="110">60%</div></div>
+                 </div>
+             </div>
+         </div>
+
+         <div class="evolution-group">
+             <img class="evolution-image" src="/img/venusaur.png" title="Venusaur">
+
+             <div class="evolution-group-status">
+                 <h3 class="evolution-name"  id="evolution-pokemon-terra">VENUSAUR</h3>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Vida: </p>
+                     <div class="progress" id="evolution-progressBar" title="Vida: 80%"> <div id="progresso-porcentagem" class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="110">80%</div> </div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Ataque: </p>
+                     <div class="progress" id="evolution-progressBar" title="Ataque: 82%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="110">82%</div> </div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Defesa: </p>
+                     <div class="progress" id="evolution-progressBar" title="Defesa: 83%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 83%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="110">83%</div></div>
+                 </div>
+                 <div class="evolution-status">
+                     <p class="evolution-text-status">Rapidez: </p>
+                     <div class="progress" id="evolution-progressBar" title="Rapidez: 80%"><div id="progresso-porcentagem" class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="110">80%</div></div>
+                 </div>
+             </div>
+         </div>
+    </div>
+    </section>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->  
+    <footer class="rodape">
+        <div>
+          <div class="itens-footer">
+            <div class="text-footer" >
+                <span class="menu-footer">
+                    <a href="index.html">Início </a>|
+                    <a href="index.html">Pokémons </a>|
+                    <a href="evolution.html">Evolução </a>|
+                    <a href="pokedex.html">Pokédex</a>
+                </span><br>
+                <span class="marca-footer">Esthefany-Dev @ 2023</span>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/esthefany-silva-a3533823a/" title="Visitar Linkedin" target="_blank"><img class="icon-redesSociais" src="../img/icons/icon-linkedin.png"></a>   
+                <a href="https://github.com/Esthefany-Dev" title="Visitar GitHub" target="_blank"><img class="icon-redesSociais" src="../img/icons/icon-github.png"></a>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="/js/evolution.js"></script>
+    <script src="/js/scrollSuave.js"></script>
+</body>
+</html>

@@ -4,7 +4,6 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout-web">Layout Web</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a
 </p>
 

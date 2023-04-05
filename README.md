@@ -21,11 +21,6 @@
 
 </p> 
 
-## 💻 Layout Web
-<p align="center">
-  <img alt="Layout Site Pokémon" src="#" width="100%">
-</p>
-
 ## 🌐 Tecnologias
 
 O projeto foi desenvolvido com as seguintes tecnologias:
